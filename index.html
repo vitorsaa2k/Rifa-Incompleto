@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <script src="./script.js"></script>
+    <title>Rifa</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="navbnt" href="">Comprar</a>
+            <a class="navbnt" href="">Cadastrar</a>
+            <a class="navbnt" href="">Entrar</a>
+        </nav>
+    </header>
+    <section>
+        <div class="phoneimg"><img class="imgsize" src="https://specifications-pro.com/wp-content/uploads/2021/12/Xiaomi-Mi-12-1.jpg" alt=""></div>
+        <div class="buyside"><h5 id="prodname" class="productname">Xiaomi Mi 12 - 8GB Ram - 128GB ROM - 6"</h5></div>
+        <aside>
+            <div class="value buyside desc">
+                Valor da rifa: 
+                R$ &nbsp;15,00
+            </div>
+            <div class="giveaway buyside desc">
+                Data do sorteio: 
+                10/06/2022
+            </div>
+            <div class="ticketsdiv buyside">
+                <a class="tickets" href="">3 Bilhetes</a>
+                <a class="tickets" href="">5 Bilhetes</a>
+                <a class="tickets" href="">10 Bilhetes</a>
+            </div>
+            <div class="buyside">
+                <button onclick="decreaseNumber();" id="decrease-number">-</button>
+                <input id="ticket-number" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" type="text" value="1">
+                <button id="increase-number" onclick="increaseNumber(3);">+</button>
+                <button class="buybnt">Comprar</button>
+            </div>
+        </aside>
+        <div class="review-box">
+            <div class="seethereview"> Veja o review do Xiaomi Mi 12</div>
+            <iframe class="review" width="853" height="800" src="https://www.youtube.com/embed/9pWUwbusLrw?start=477" frameborder="0"  allowfullscreen></iframe>
+        </div>
+    </section>
+    <section>
+        
+        <footer>
+            <div class="contact">
+                <div class="cont">
+                    Contato: <br>
+                </div>
+                <div class="cont">
+                    vitoradriel66@gmail.com<br>
+                </div>
+                <div>
+                    <a target="_blank" href="https://www.instagram.com/vitorsaa2k/" class="cont">@vitorsaa2k</a>
+                </div>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
