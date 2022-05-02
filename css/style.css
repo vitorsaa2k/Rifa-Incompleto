@@ -1,0 +1,268 @@
+@media only screen and (min-width: 500px) {
+  .review {
+    height: 720px;
+  }
+
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .phoneimg {
+    width: 40%;
+    float: left;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+body {
+  font-family: emoji, "Nunito", sans-serif;
+}
+
+header {
+  padding: 0.8rem;
+  background-color: #999fa8;
+}
+
+input {
+  border: 1px solid #cacccf;
+  text-decoration: none;
+  box-shadow: 1px 1px 5px #999fa8;
+}
+
+button {
+  background-color: none;
+  border: none;
+  text-decoration: none;
+  box-shadow: 1px 1px 5px #86898d;
+}
+
+header nav {
+  font-family: emoji, "Nunito", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.buyside {
+  text-align: center;
+  padding: 0.1rem 0;
+}
+
+footer {
+  display: flex;
+  background-color: #999fa8;
+  padding: 2rem 0;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 1.2rem;
+}
+
+.cont {
+  margin: 0.4rem;
+}
+
+.review-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  clear: left;
+  padding-bottom: 5rem;
+}
+
+.seethereview {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.review {
+  clear: both;
+  width: 100%;
+  padding: 2.1rem;
+  padding-top: 0.6rem;
+  max-width: 1280px;
+  max-height: 720px;
+  height: 350px;
+}
+
+.imgsize {
+  width: 100%;
+}
+
+.phoneimg {
+  width: 100%;
+}
+
+.productname {
+  font-size: 2rem;
+  font-weight: 200;
+  padding: 4.5rem 0;
+}
+
+.navbnt {
+  position: relative;
+  padding: 0.6rem;
+  transition: 0.3s;
+}
+
+.navbnt:hover {
+  color: #fff;
+}
+
+.navbnt::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.navbnt:hover::after {
+  transform: scaleX(1);
+}
+
+.desc {
+  font-size: 1.4rem;
+}
+
+.ticketsdiv {
+  padding: 1.2rem 0;
+}
+
+.tickets {
+  text-transform: uppercase;
+  padding: 0.4rem;
+  font-weight: 100;
+  color: #fff;
+  background-color: #999fa8;
+  border: 1px solid #999fa8;
+  border-radius: 5px;
+  transition: 0.3s;
+  text-decoration: none;
+  box-shadow: 1px 1px 5px #999fa8;
+}
+
+.tickets:hover {
+  color: #999fa8;
+  background-color: #fff;
+}
+
+.buybnt {
+  text-transform: uppercase;
+  padding: 0.4rem;
+  font-weight: 100;
+  color: #fff;
+  background-color: #999fa8;
+  border: 1px solid #999fa8;
+  border-radius: 0.4rem;
+  transition: 0.3s;
+}
+
+.buybnt:hover {
+  color: #999fa8;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#ticket-number {
+  width: 1.4rem;
+  height: 1.4rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#decrease-number {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0;
+  padding: 0;
+  font-weight: 100;
+  color: #fff;
+  background-color: #999fa8;
+  border: 1px solid #999fa8;
+  border-radius: 0.4rem;
+  transition: 0.3s;
+  text-decoration: none;
+  box-shadow: 1px 1px 5px #999fa8;
+}
+
+#decrease-number:hover {
+  cursor: pointer;
+  color: #999fa8;
+  background-color: #fff;
+}
+
+#increase-number {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0;
+  padding: 0;
+  font-weight: 100;
+  color: #fff;
+  background-color: #999fa8;
+  border: 1px solid #999fa8;
+  border-radius: 0.4rem;
+  transition: 0.3s;
+  text-decoration: none;
+  box-shadow: 1px 1px 5px #999fa8;
+}
+
+#increase-number:hover {
+  cursor: pointer;
+  color: #999fa8;
+  background-color: #fff;
+}
+
+@media only screen and (min-width: 500px) {
+  .review {
+    height: 720px;
+  }
+
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .phoneimg {
+    width: 40%;
+    float: left;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

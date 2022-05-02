@@ -1,0 +1,22 @@
+.review-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    clear: left;
+    padding-bottom: 5rem;
+}
+.seethereview{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    font-size: 1.2rem;
+}
+.review{
+    clear: both;
+    width: 100%;
+    padding: 2.1rem;
+    padding-top: 0.6rem;
+    max-width: 1280px;
+    max-height: 720px;
+    height: 350px;
+}
