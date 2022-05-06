@@ -37,8 +37,8 @@
             <div class="buyside">
                 <button onclick="decreaseNumber();" id="decrease-number">-</button>
                 <input id="ticket-number" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" type="text" value="1">
-                <button id="increase-number" onclick="increaseNumber(3);">+</button>
-                <button class="buybnt">Comprar</button>
+                <button id="increase-number" onclick="increaseNumber();">+</button>
+                <button onclick="window.location.href = 'buypage.html'" class="buybnt">Comprar</button>
             </div>
         </aside>
         <div class="review-box">
