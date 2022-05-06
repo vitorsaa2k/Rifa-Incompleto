@@ -246,6 +246,28 @@ footer {
   background-color: #fff;
 }
 
+.first-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows: minmax(30px, auto);
+}
+
+.client-info {
+  padding: 2rem;
+  grid-column: 2/4;
+  grid-row: 10/auto;
+  border: 1px solid #999fa8;
+}
+
+.info-valor {
+  grid-column: 4/4;
+  grid-row: 10/auto;
+}
+
+#final-value {
+  text-align: center;
+}
+
 @media only screen and (min-width: 500px) {
   .review {
     height: 720px;

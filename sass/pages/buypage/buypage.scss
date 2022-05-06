@@ -1,0 +1,18 @@
+.first-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: minmax(30px, auto);
+}
+.client-info{
+    padding: 2rem;
+    grid-column: 2/4;
+    grid-row: $main-row;
+    border: 1px solid $primary-color;
+}
+.info-valor{
+    grid-column: 4/4;
+    grid-row: $main-row;
+}
+#final-value{
+    text-align: center;
+}

@@ -17,5 +17,11 @@ function decreaseNumber(){
     if(value <= 0){
         document.getElementById('ticket-number').value = 0
     }
-    document.getElementById('decrease-number').disabled = false;
 }
+
+function buyside(){
+    var value = parseInt(document.getElementById('ticket-number').value, 10)
+    value = isNaN(value) ? 0 : value;
+    let finalPrice = value * 15;
+}
+
