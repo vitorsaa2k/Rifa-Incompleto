@@ -8,6 +8,9 @@ function increaseNumber(){
         document.getElementById('ticket-number').value = 30;
     }
     let finalPrice = value * 15;
+    if (finalPrice > 450){
+        finalPrice = 450
+    }
     document.getElementById('total').innerHTML = `Valor total: R$${finalPrice},00`
 }
 function decreaseNumber(){
