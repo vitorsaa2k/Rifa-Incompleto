@@ -29,11 +29,27 @@ function decreaseNumber(){
     document.getElementById('total').innerHTML = `Valor total: R$${finalPrice},00`
 }
 
+function change_on_number_input(){
+    var value = parseInt(document.getElementById('ticket-number').value, 10)
+    value = isNaN(value) ? 0 : value;
+    let finalPrice = value * 15;
+    if (finalPrice > 450){
+        finalPrice = 450
+    }
+    document.getElementById('total').innerHTML = `Valor total: R$${finalPrice},00`
+}
 
 function buyside(){
     var value = parseInt(document.getElementById('ticket-number').value, 10)
     value = isNaN(value) ? 0 : value;
     let finalPrice = value * 15;
+    if (finalPrice > 450){
+        finalPrice = 450
+    }
     return finalPrice
+}
+
+function maxAlert(){
+
 }
 
