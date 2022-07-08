@@ -29,6 +29,9 @@
                 Data do sorteio: 
                 10/06/2022
             </div>
+            <div id="total" class="giveaway buyside desc">
+                Valor total: R$15,00
+            </div>
             <div class="ticketsdiv buyside">
                 <a class="tickets" href="">3 Bilhetes</a>
                 <a class="tickets" href="">5 Bilhetes</a>
@@ -38,7 +41,7 @@
                 <button onclick="decreaseNumber();" id="decrease-number">-</button>
                 <input id="ticket-number" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" type="text" value="1">
                 <button id="increase-number" onclick="increaseNumber();">+</button>
-                <button onclick="window.location.href = 'buypage.html'" class="buybnt">Comprar</button>
+                <button onclick="buyside()" class="buybnt">Comprar</button>
             </div>
         </aside>
         <div class="review-box">
