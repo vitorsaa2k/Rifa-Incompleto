@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
     <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/92d5e9b306.js" crossorigin="anonymous"></script>
     <title>Rifa</title>
 </head>
 <body>
@@ -22,8 +23,7 @@
         <div class="buyside"><h5 id="prodname" class="productname">Xiaomi Mi 12 - 8GB Ram - 128GB ROM - 6"</h5></div>
         <aside>
             <div class="value buyside desc">
-                Valor da rifa: 
-                R$ &nbsp;15,00
+                
             </div>
             <div class="giveaway buyside desc">
                 Data do sorteio: 
@@ -39,11 +39,18 @@
             </div>
             <div class="buyside">
                 <button onclick="decreaseNumber();" id="decrease-number">-</button>
-                <input id="ticket-number" onchange="change_on_number_input()" oninput="change_on_number_input(); this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" type="text" value="1">
+                <input id="ticket-number" oninput="change_on_number_input(); this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" type="text" value="1">
                 <button id="increase-number" onclick="increaseNumber();">+</button>
                 <button onclick="buyside()" class="buybnt">Comprar</button>
             </div>
         </aside>
+        <div id="alert" class="alert">
+            <div class="alert_content">
+                <span class="exclamation alert_icon fa-solid fa-circle-exclamation"></span>
+                Você só pode comprar no máximo 30 bilhetes
+                <span onclick="close_alert();" class="close_button alert_icon fa-solid fa-xmark"></span>
+            </div>
+        </div>
         <div class="review-box">
             <div class="seethereview"> Veja o review do Xiaomi Mi 12</div>
             <iframe class="review" width="853" height="800" src="https://www.youtube.com/embed/9pWUwbusLrw?start=477" frameborder="0"  allowfullscreen></iframe>

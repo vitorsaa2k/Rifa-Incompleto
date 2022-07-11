@@ -1,3 +1,53 @@
 .alert{
     background-color: #f24b3f;
+    position: absolute;
+    padding: 0.5rem;
+    margin: 1rem;
+    min-width: 240px;
+    display: none;
+    right: 0;
+    bottom: 0;
+    border-radius: 1rem;
+    color: #fff;
+}
+.alert.show{
+    display: block;
+    animation: slide_apear 1s ease forwards;
+    @keyframes slide_apear{
+        0%{
+            transform: translateX(50%);
+            opacity: 0;
+        }
+        100%{
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+}
+.alert.hide{
+    display: block;
+    animation: slide_hide 1s ease forwards;
+    @keyframes slide_hide{
+        0%{
+            transform: translateX(0);
+            opacity: 1;
+        }
+        100%{
+            transform: translateX(100%);
+            opacity: 0;
+        }
+    }
+}
+.alert_content{
+    display: flex;
+    align-items: center;
+    gap: 0.5re;
+}
+.close_button:hover{
+    color: rgb(65, 64, 64);
+    cursor: pointer;
+    transition: 0.1s;
+}
+.alert_icon{
+    margin: 0.5rem;
 }
