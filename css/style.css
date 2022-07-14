@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    scroll-behavior: smooth;
   }
 
   .phoneimg {
@@ -28,6 +29,7 @@ html {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -165,7 +167,7 @@ footer {
   clear: both;
   width: 100%;
   padding: 2.1rem;
-  padding-top: 0.6rem;
+  padding-top: 4rem;
   max-width: 1280px;
   max-height: 720px;
   height: 350px;
@@ -311,6 +313,26 @@ footer {
   background-color: #fff;
 }
 
+.btn-review {
+  background-color: #6fe74e;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #59b640;
+  margin: 1rem;
+  font-size: 1.4rem;
+  transition: 0.2s;
+  border: #7bff56 1px solid;
+}
+
+.btn-review:hover {
+  background-color: #59b640;
+}
+
+.btn-review-box {
+  display: flex;
+  justify-content: center;
+}
+
 .first-row {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -349,6 +371,7 @@ footer {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    scroll-behavior: smooth;
   }
 
   .phoneimg {

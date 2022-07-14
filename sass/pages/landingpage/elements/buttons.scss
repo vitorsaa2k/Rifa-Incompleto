@@ -77,3 +77,20 @@
     color: $primary-color;
     background-color: #fff;
 }
+.btn-review{
+    background-color: #6fe74e;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #59b640;
+    margin: 1rem;
+    font-size: 1.4rem;
+    transition: 0.2s;
+    border: #7bff56 1px solid;
+}
+.btn-review:hover{
+    background-color: #59b640;
+}
+.btn-review-box{
+    display: flex;
+    justify-content: center;
+}
